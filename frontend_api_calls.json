@@ -1,0 +1,52 @@
+[
+  {
+    "file": "/api/broker.ts",
+    "method": "GET",
+    "url": "${API_URL}/broker/status"
+  },
+  {
+    "file": "/api/broker.ts",
+    "method": "GET",
+    "url": "${API_URL}/broker/upstox/login-url"
+  },
+  {
+    "file": "/api/broker.ts",
+    "method": "GET",
+    "url": "${API_URL}/broker/profile"
+  },
+  {
+    "file": "/api/broker.ts",
+    "method": "GET",
+    "url": "${API_URL}/broker/funds"
+  },
+  {
+    "file": "/api/broker.ts",
+    "method": "GET",
+    "url": "${API_URL}/broker/holdings"
+  },
+  {
+    "file": "/api/broker.ts",
+    "method": "GET",
+    "url": "${API_URL}/broker/orders"
+  },
+  {
+    "file": "/api/portfolio_ai.ts",
+    "method": "GET",
+    "url": "${API_URL}/portfolio/intelligence/?user_id=${userId}"
+  },
+  {
+    "file": "/api/alerts.ts",
+    "method": "GET",
+    "url": "${API_URL}/alerts/"
+  },
+  {
+    "file": "/api/alerts.ts",
+    "method": "POST",
+    "url": "${API_URL}/alerts/"
+  },
+  {
+    "file": "/api/alerts.ts",
+    "method": "DELETE",
+    "url": "${API_URL}/alerts/${id}"
+  }
+]

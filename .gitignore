@@ -1,0 +1,33 @@
+# Environment Variables & API Keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+firebase.json
+firebase-debug.log
+
+# Your hardcoded frontend config file (if you wish to keep it secret)
+frontend/src/firebase.ts
+
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/npm-debug.log*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
